@@ -3,7 +3,7 @@ Classifying unknown fruit images to their corresponding class of fruit type usin
 Fruit360 Classification Project
 This is a machine learning project for classifying fruits based on their images using the Fruit360 dataset. The dataset consists of 131 different kinds of fruits, with a total of 90483 images.
 
-Project Structure
+# Project Structure
 This repository contains the following files and directories:
 
 data: a directory containing the Fruit360 dataset in its original form, as well as preprocessed versions of the data used for training and testing the model.
@@ -11,7 +11,8 @@ models: a directory containing the trained model weights and architecture files.
 notebooks: a directory containing Jupyter notebooks used for data exploration, preprocessing, model training, and testing.
 src: a directory containing Python source code for the model training and testing scripts.
 README.md: this file, providing an overview of the project and its contents.
-Requirements
+
+# Requirements
 To run the code in this repository, you will need the following software installed:
 
 Python 3.6 or later
@@ -19,7 +20,8 @@ TensorFlow 2.0 or later
 NumPy
 Matplotlib
 Jupyter Notebook (optional, for running the notebooks)
-Usage
+
+# Usage
 To train the model, run the train.py script in the src directory. This will output the trained model weights and architecture files to the models directory.
 
 To test the trained model, run the test.py script in the src directory. This will load the trained model weights and architecture files from the models directory andtest the model on a set of images from the dataset.
